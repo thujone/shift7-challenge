@@ -1,0 +1,181 @@
+/* Define colors and fonts */
+:root {
+    --primary-color: #B81830;
+    --dark-text-color: #181818;
+    --light-text-color: #404040;
+    --lighter-text-color: #666;
+    --lightest-text-color: #fff;
+    --border-color: #D0D0D0;
+    --panel-background-color: #F4F4F4;
+    --dark-background-color: #000;
+    --callout-color: #095B1F;
+    --warning-color: #B5520A;
+    --header-font-family: "Noto Sans", sans-serif;
+    --body-font-family: "Public Sans", sans-serif;
+}
+
+body {
+    color: var(--dark-text-color);
+    overflow-x: hidden;
+    font-family: var(--body-font-family);
+}
+
+em {
+    font-style: italic;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+strong {
+    font-family: var(--header-font-family);
+    font-weight: 700;
+    color: var(--dark-text-color);
+}
+
+h1.banner {
+    font-size: 28px;
+    line-height: 33px;
+}
+
+@media screen and (min-width: 1024px) {
+    h1.banner {
+        font-size: 48px;
+        line-height: 51px;
+    }
+}
+
+h1 {
+    font-size: 28px;
+    line-height: 33px;
+}
+
+@media screen and (min-width: 1024px) {
+    h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+}
+
+h2 {
+    font-size: 22px;
+    line-height: 28px;
+}
+
+@media screen and (min-width: 1024px) {
+    h2 {
+        font-size: 35px;
+        line-height: 42px;
+    }
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+@media screen and (min-width: 1024px) {
+    h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
+
+h4 {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+    h4 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+p,
+li {
+    font-size: 15px;
+    line-height: 22px;
+    color: var(--light-text-color);
+}
+
+@media screen and (min-width: 1024px) {
+    p,
+    li {
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+
+fn,
+sub,
+sup,
+.copyright {
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--light-text-color);
+}
+
+@media screen and (min-width: 1024px) {
+    fn,
+    sub,
+    sup,
+    .copyright {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+
+.dark {
+    color: var(--dark-text-color);
+}
+
+.light {
+    color: var(--light-text-color);
+}
+
+.lighter {
+    color: var(--lighter-text-color);
+}
+
+.lightest {
+    color: var(--lightest-text-color);
+}
+
+.slide-content {
+    visibility: hidden;
+    width: 0;
+}
+
+.active {
+    visibility: visible;
+    width: 250px;
+}
+
+a {
+    color: var(--primary-color);
+    transition: 300ms all ease-in-out;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: var(--primary-color);
+}
+
+a.disabled {
+    pointer-events: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .9;
+}

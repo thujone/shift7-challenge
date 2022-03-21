@@ -1,0 +1,66 @@
+{
+    "products": [
+        {
+            "id": 101,
+            "name": "Viking 3350 Welding Helmet",
+            "friendly-name": "viking-3350-welding-helmet",
+            "photos": [
+                {
+                    "thumb": "thumb-1.jpeg",
+                    "medium": "medium-1.jpeg",
+                    "title": "first photo"
+                },
+                {
+                    "thumb": "thumb-2.jpeg",
+                    "medium": "medium-2.jpeg",
+                    "title": "second photo"
+                },
+                {
+                    "thumb": "thumb-3.jpeg",
+                    "medium": "medium-3.jpeg",
+                    "title": "third photo"
+                },
+                {
+                    "thumb": "thumb-4.jpeg",
+                    "medium": "medium-4.jpeg",
+                    "title": "fourth photo"
+                },
+                {
+                    "thumb": "thumb-5.jpeg",
+                    "medium": "medium-5.jpeg",
+                    "title": "fifth photo"
+                },
+                {
+                    "thumb": "thumb-6.jpeg",
+                    "medium": "medium-6.jpeg",
+                    "title": "sixth photo"
+                },
+                {
+                    "thumb": "thumb-7.jpeg",
+                    "medium": "medium-7.jpeg",
+                    "title": "seventh photo"
+                },
+                {
+                    "thumb": "thumb-8.jpeg",
+                    "medium": "medium-8.jpeg",
+                    "title": "eighth photo"
+                },
+                {
+                    "thumb": "thumb-9.jpeg",
+                    "medium": "medium-9.jpeg",
+                    "title": "ninth photo"
+                },
+                {
+                    "thumb": "thumb-10.jpeg",
+                    "medium": "medium-10.jpeg",
+                    "title": "tenth photo"
+                },
+                {
+                    "thumb": "thumb-11.jpeg",
+                    "medium": "medium-11.jpeg",
+                    "title": "eleventh photo"
+                }
+            ]
+        }
+    ]
+}

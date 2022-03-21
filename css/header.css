@@ -1,0 +1,136 @@
+header .primary-nav-bar.mobile {
+    display: flex;
+    height: 3;
+    padding: 8px 10px;
+}
+
+@media screen and (min-width: 1024px) {
+    header .primary-nav-bar.mobile {
+        display: none;
+    }
+}
+
+header .primary-nav-bar.mobile .cart-item-count {
+    color: var(--dark-text-color);
+}
+
+header .primary-nav-bar.desktop {
+    background-color: var(--dark-background-color);
+}
+
+
+header .primary-nav-bar.desktop,
+header nav.desktop {
+    display: none;
+    padding: 8px 10px;
+}
+
+@media screen and (min-width: 1024px) {
+    header .primary-nav-bar.desktop,
+    header nav.desktop {
+        display: flex;
+    }
+}
+
+header .primary-nav-bar.desktop .cart-item-count {
+    color: var(--lightest-text-color);
+}
+
+header .logo {
+    height: 32px;
+    width: auto;
+    display: block;
+}
+
+header .desktop .logo {
+    height: 42px;
+}
+
+header .mobile-slideout-nav {
+    display: none;
+}
+
+header.opened .mobile-slideout-nav {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 50px);
+    top: 50px;
+    left: -4px;
+    z-index: 2;
+    background: var(--panel-background-color);
+    overflow: auto;
+}
+
+.mobile-slideout-nav li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: var(--header-font-family);
+    font-weight: 700;
+    font-size: 19px;
+    color: var(--dark-text-color);
+    padding: 20px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+header .open-slideout-button {
+    display: block;
+    height: 40px;
+    padding: 0 18px;
+}
+
+header.opened .open-slideout-button {
+    display: none;
+}
+
+header .close-slideout-button {
+    display: none;
+    font-size: 36px;
+    margin: 0 19px 0 18px;
+}
+
+header.opened .close-slideout-button {
+    display: block;
+}
+
+header .header-links {
+    margin-left: auto;
+    display: flex;
+}
+
+header .header-links li {
+    position: static;
+    padding-left: 0;
+    list-style: none;
+}
+
+header .header-links a {
+    display: flex;
+    align-items: center;
+}
+
+header .header-links img {
+    height: 24px;
+    width: auto;
+    margin-right: 20px;
+}
+
+header nav.desktop ul {
+    display: flex;
+    position: static;
+    align-items: center;
+}
+
+header nav.desktop li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: var(--header-font-family);
+    font-weight: 700;
+    font-size: 17px;
+    color: var(--dark-text-color);
+    padding: 20px;
+}

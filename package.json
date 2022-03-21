@@ -1,0 +1,25 @@
+{
+  "name": "shift7-challenge",
+  "version": "1.0.0",
+  "description": "FE coding challenge from Shift7",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --config bs-config.js & json-server --watch db.json --port 3030"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thujone/shift7-challenge.git"
+  },
+  "author": "Richard Goldman",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/thujone/shift7-challenge/issues"
+  },
+  "homepage": "https://github.com/thujone/shift7-challenge#readme",
+  "dependencies": {
+    "@splidejs/splide": "^3.6.12",
+    "browser-sync": "^2.27.9",
+    "json-server": "^0.17.0"
+  }
+}

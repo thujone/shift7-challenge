@@ -1,0 +1,51 @@
+.splide__slide img {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+.splide__arrow {
+    display: none;
+}
+
+.desktop-carousel {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .desktop-carousel {
+        display: block;
+    }
+}
+
+.mobile-carousel {
+    display: block;
+}
+
+@media screen and (min-width: 1024px) {
+    .mobile-carousel {
+        display: none;
+    }
+}
+
+.thumbnails {
+    display: flex;
+    margin: 1rem auto 0;
+    padding: 0;
+    justify-content: center;
+}
+
+
+.thumbnail {
+    width: auto;
+    height: 60px;
+    overflow: hidden;
+    list-style: none;
+    margin: .2rem 0;
+    cursor: pointer;
+}
+
+.thumbnail img {
+    width: auto;
+    height: auto;
+}
